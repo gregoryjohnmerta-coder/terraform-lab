@@ -1,0 +1,5 @@
+region = "ap-south-1"
+env = "dev"
+ami_id = "ami-0ced6a024bb18ff2e"
+instance_type = "t3.nano"
+num_of_vm = "2"
