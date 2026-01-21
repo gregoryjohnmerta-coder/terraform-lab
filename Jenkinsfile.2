@@ -1,0 +1,14 @@
+pipeline {
+    stages {
+        stage('check-pre-requisite) {'}
+    }
+  agent any
+  triggers {
+     pollSCM('H/3 * * * *')
+  }
+  stages {
+    stage('plan') {
+        steps {
+            sh "terraform plan"
+        }
+}
